@@ -1,1 +1,125 @@
-
+ATIVIDADE AVALIATIVA
+1. O que são dispositivos finais em uma rede?
+Dispositivos finais (também conhecidos como hosts ou terminais) são os pontos
+onde uma mensagem se origina ou onde ela é recebida,é qualquer aparelho que
+um usuário utiliza diretamente para enviar ou receber dados através da rede.
+2. Dê 3 exemplos de dispositivos finais.
+Computadores: Desktops e notebooks.
+Dispositivos Móveis: Smartphones e tablets.
+Periféricos de Rede: Impressoras de rede e scanners.
+3. Qual a função principal de um dispositivo intermediário?
+Os intermediários são como os dispositivos que garantem que os dados
+cheguem ao caminho certo, mas não consomem nem geram o conteúdo da
+mensagem para uso próprio.
+4. Quais são exemplos de dispositivos intermediários?
+Roteadores-conectam diferentes redes entre si (como a rede doméstica à internet)
+Switches-conecta vários dispositivos dentro de uma mesma rede local (LAN)
+Firewalls-Dispositivos de segurança que monitoram e controlam o tráfego de
+entrada e saída
+5. O que é um meio de transmissão de dados?
+É o canal físico (ou invisível) através do qual a informação viaja da origem ao
+destino
+6. Quais são os principais tipos de meios de transmissão?
+Fios de Cobre (Cabeamento Metálico)-Os dados são transmitidos através de
+pulsos elétricos-Cabo de par trançado e o cabo coaxial.
+Fibra Óptica (Vidro ou Plástico)-dados são convertidos em pulsos de luz. É
+utilizado para conexões de longa distância e internet de alta velocidade.-Cabos de
+fibra monomodo e multimodo.
+Sem Fio (Wireless)-dados são transmitidos através de ondas eletromagnéticas
+pelo ar.eX:Wi-Fi, Bluetooth, satélite e redes móveis (4G/5G).
+7. Qual a diferença entre cabo coaxial e fibra óptica?
+Na forma como os dados são transportados e na capacidade de desempenho de
+cada um. Enquanto o coaxial utiliza eletricidade, a fibra utiliza luz.
+8. O que é um roteador (router)?
+A principal função de um roteador é ler o endereço de destino (endereço IP) de um
+pacote de dados e decidir qual é o melhor caminho para ele seguir até chegar ao
+destino.
+9. Qual a função de um switch em uma rede?
+É o dispositivo central de uma rede local (LAN). Sua principal função é conectar
+diversos dispositivos — como computadores, impressoras e servidores —
+permitindo que eles se comuniquem entre si de forma eficiente,organiza a
+comunicação dentro da mesma rede.
+10. Como um dispositivo final se conecta a uma rede Wi-Fi?
+Ocorre através de um processo de comunicação por ondas de rádio, seguindo
+algumas etapas técnicas padronizadas pelo protocolo IEEE 802.11.
+11. O que é um Access Point (AP)?
+É um dispositivo de rede que atua como um portal para que dispositivos sem fio
+(Wi-Fi) se conectem a uma rede cabeada.Ele estende a conectividade.
+12. Qual a principal diferença entre LAN e WAN?
+Na abrangência geográfica e em quem detém o controle sobre a infraestrutura da
+rede.
+LAN (Local Area Network): É uma rede de curto alcance. Ela conecta dispositivos
+em uma área limitada, como uma residência, um escritório, uma escola ou um
+prédio.
+WAN (Wide Area Network): É uma rede de longo alcance. Ela conecta múltiplas
+LANs através de grandes distâncias, podendo abranger cidades, estados, países
+ou até continentes. A Internet é o maior exemplo de uma WAN.
+13. O que é um modem?
+É o dispositivo que faz a ponte entre a sua casa e o seu provedor de internet. O
+nome vem da abreviação de MOdulador / DEModulador.Sua função principal é
+converter os sinais para que a comunicação seja possível entre tecnologias
+diferentes.
+14. Como os dispositivos se comunicam em uma rede Ethernet?
+Padrão mais utilizado em redes cabeadas, acontece através de regras que
+definem como os dados devem ser empacotados, endereçados e transmitidos
+pelos cabos,se comunica internamente com endereço MAC (Media Access
+Control)-Cada placa de rede no mundo sai de fábrica com um número único e
+permanente.
+15. Qual a importância da segurança em redes de computadores?
+A segurança em redes de computadores é fundamental porque, em um mundo
+super conectado, a rede não é apenas um caminho para dados, mas a
+infraestrutura que sustenta economias, serviços essenciais e a privacidade
+individual.
+16. Qual é o papel do endereço IP em uma rede?
+A identidade lógica de um dispositivo em uma rede. É
+o sistema de
+endereçamento que permite que as mensagens cheguem ao lugar certo.
+IP Privado: É o endereço que o seu roteador dá para os aparelhos dentro da sua
+casa (sua LAN).
+IP Público: É o endereço único que o seu provedor de internet dá para o seu
+roteador, para que o mundo inteiro consiga te "achar" na internet (WAN).
+17. O que é DNS e para que serve?
+Sistema de Nomes de Domínio, é frequentemente chamado de a "lista de
+contatos" da internet. Sua principal função é traduzir nomes de domínio que
+humanos conseguem entender (como google.com) em endereços IP que os
+computadores usam para se comunicar (como 142.250.191.46).
+18. Qual a diferença entre TCP e UDP?
+Está na forma como eles entregam os dados: um prioriza a segurança e a ordem,
+enquanto o outro prioriza a velocidade.
+O TCP é um protocolo orientado à conexão,ele garante que todos os dados
+cheguem ao destino. Se um pacote for perdido no caminho, o TCP solicita a
+retransmissão.
+UDP é um protocolo não orientado à conexão,ele põe a informação na rede e
+espera que ela chegue, sem pedir confirmação.
+19. O que é um firewall e qual sua função?
+O principal dispositivo ou software de segurança de uma rede. Ele atua como uma
+barreira de proteção que controla o tráfego de dados entre a sua rede interna e
+redes externas,ele verifica quem está tentando entrar ou sair e decide se permite a
+passagem com base em um conjunto de regras pré-definidas.
+Filtragem de Pacotes-Bloqueio de Acessos Não Autorizados-Controle de
+Saída-Prevenção contra Ataques
+Tipos de Firewall
+1.​ Firewall de Software: É um programa instalado diretamente no sistema
+operacional (como o Firewall do Windows). Ele protege especificamente
+aquele computador.
+2.​ Firewall de Hardware: É um dispositivo físico dedicado (como os da Cisco,
+Fortinet ou Mikrotik) que fica entre o modem e o restante da rede. Ele
+protege todos os dispositivos conectados àquela rede de uma só vez.
+3.​ Next-Generation Firewall (NGFW): São versões mais modernas que não
+apenas olham o "endereço" dos dados, mas também inspecionam o conteúdo da mensagem (Deep Packet Inspection) para identificar ameaças
+escondidas dentro de arquivos legítimos.
+Diferença entre Firewall e Antivírus
+Eles têm papéis diferentes:
+●​ O Antivírus foca em escanear e eliminar arquivos maliciosos que já estão
+ou tentam entrar no sistema.
+●​ O Firewall foca em controlar as "portas e janelas" (conexões de rede) para
+impedir que o invasor ou o vírus chegue até você.
+Fontes:
+https://www.ibm.com/br-pt/think/topics/networking-
+O que é rede de computadores?Acessado em 16/04/2026
+https://hackersdobem.org.br/Projeto apoiado pelo Ministério da Ciência,
+Tecnologia e Inovações/Curso Hackers do Bem-Apostila:Compreender Internet e
+Camada de acesso à rede-Acessado em 16/04/2026
+https://www.cisco.comArtigo:Noções básicas de rede: o que você precisa
+saber-Uma rede conecta computadores, telefones celulares, periféricos e até
+dispositivos de IoT.Acessado em 16/04/2026
