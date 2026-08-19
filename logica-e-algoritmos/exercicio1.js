@@ -8,7 +8,6 @@ for (let i= 1;i<= numero;i++){
  contador += i + " "; 
     console.log(contador)
 }
-}
-piramideNumerica();
 
+piramideNumerica();
 
