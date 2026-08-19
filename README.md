@@ -9,7 +9,9 @@ Este repositório armazena todos os exercícios práticos, laboratórios e proje
 * **Instituição:** Meta Escola de Formação Técnica
 * **Período:** Março 2026 / Dezembro 2027
 * **Módulos:** Lógica de Programação, Algoritmos, Banco de Dados, Engenharia de Software, Redes de Computadores e Introdução à Tecnologia da Informação.
+## 🏆 Projetos Integradores e Trabalhos de Destaque
 
+* **[PWR History Tour - Sistema de Vendas Automatizado](https://github.com/lsdevweb/PWR-History-Tour---Sistema-de-Vendas-Automatizado)**: Sistema interativo em Node.js focado em automação de reservas e pacotes turísticos desenvolvido para as disciplinas de Lógica e Programação.
 ---
 
 ## 🛠️ Tecnologias e Ferramentas Utilizadas
