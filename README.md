@@ -15,6 +15,7 @@ Este repositório armazena todos os exercícios práticos, laboratórios e proje
 ## 📁 Estrutura do Repositório
 
 O repositório está organizado de forma modular por semestres:
+
 ├── Primeiro_Modulo/
 │   ├── bancodeDados1/         # Scripts SQL, modelagem de dados (DER) e consultas
 │   ├── introduçãoTI_head/     # Conceitos de TI, fundamentos e EAD
