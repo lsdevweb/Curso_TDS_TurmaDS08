@@ -1,42 +1,58 @@
 # 🚀 Curso Técnico em Desenvolvimento de Sistemas
 
-Este repositório armazena todos os exercícios práticos, laboratórios e projetos desenvolvidos ao longo do curso técnico. O objetivo é consolidar o aprendizado em lógica de programação, banco de dados, redes de computadores e arquitetura de software.
+Este repositório armazena todos os exercícios práticos, laboratórios e projetos desenvolvidos ao longo do curso técnico. O objetivo é consolidar o aprendizado em lógica de programação, banco de dados, redes de computadores, front-end e desenvolvimento backend.
 
 ---
 
 ## 📌 Visão Geral do Curso
 
-* **Instituição:** Meta Escola de Formação Técnica
-* **Período:** Março 2026 / Dezembro 2027
-* **Módulos:** Lógica de Programação, Algoritmos, Banco de Dados, Engenharia de Software, Redes de Computadores e Introdução à Tecnologia da Informação.
-## 🏆 Projetos Integradores e Trabalhos de Destaque
-
-* **[PWR History Tour - Sistema de Vendas Automatizado](https://github.com/lsdevweb/PWR-History-Tour---Sistema-de-Vendas-Automatizado)**: Sistema interativo em Node.js focado em automação de reservas e pacotes turísticos desenvolvido para as disciplinas de Lógica e Programação.
----
-
-## 🛠️ Tecnologias e Ferramentas Utilizadas
-
-* **Linguagens:** JavaScript
-* **Banco de Dados:** MySQL
-* **Ferramentas:** Git, GitHub, VS Code
+* **Instituição:** Meta Escola de Formação Técnica[cite: 1]
+* **Período:** Março de 2026 – Dezembro de 2027[cite: 1]
+* **Curso:** Técnico em Desenvolvimento de Sistemas[cite: 1]
 
 ---
 
 ## 📁 Estrutura do Repositório
 
-O repositório está organizado por pastas temáticas para facilitar a navegação:
+O repositório está organizado de forma modular por semestres:
 
-* `logica-e-algoritmos/`: Exercícios básicos de algoritmos, estruturas condicionais e de repetição.
-* `redes_computadores/`: Trabalhos e atividades sobre arquitetura e protocolos de rede.
-* `banco-dados/`: Scripts SQL, modelagem de dados (DER) e consultas.
+```text
+.
+├── Primeiro_Modulo/
+│   ├── bancodeDados1/         # Scripts SQL, modelagem de dados (DER) e consultas
+│   ├── introduçãoTI_head/     # Conceitos de TI, fundamentos e EAD
+│   ├── lógica-e-algoritmos/   # Exercícios em JS, estruturas condicionais e de repetição
+│   └── redes_computadores/    # Trabalhos sobre arquitetura e protocolos de rede
+│
+├── Segundo_Modulo/            # Módulo em andamento
+│   └── README.md
+│
+├── .gitignore
+├── package.json
+└── README.md
+🏆 Projetos Integradores e Destaques
+PWR History Tour - Sistema de Vendas Automatizado: Sistema interativo em Node.js focado em automação de reservas e pacotes turísticos, desenvolvido para as disciplinas de Lógica e Programação.
 
-## 🚀 Como Executar os Projetos
-1. Clone o repositório para sua máquina local:
+🛠️ Tecnologias e Ferramentas
+Linguagens: JavaScript, Node.js, SQL
+
+Banco de Dados: MySQL
+
+Ferramentas: Git, GitHub, VS Code, Linux Mint
+
+🚀 Como Executar os Projetos
+Clone o repositório:
+
+Bash
+git clone [https://github.com/lsdevweb/Curso_TDS_TurmaDS08.git](https://github.com/lsdevweb/Curso_TDS_TurmaDS08.git)
+Navegue até o módulo e matéria desejada:
+
+Bash
+cd Curso_TDS_TurmaDS08/Primeiro_Modulo/logica-e-algoritmos
+---
+
+### Como atualizar rapidamente pelo terminal:
+
+1. Abra o arquivo no VS Code ou nano:
    ```bash
-   git clone https://github.com[seu-usuario]/[nome-do-repositorio].git
-   ```
-2. Entre na pasta do exercício desejado:
-   ```bash
-   cd nome-da-pasta
-   ```
-3. Siga as instruções específicas do arquivo `README.md` interno de cada pasta para rodar o código.
+   code README.md
