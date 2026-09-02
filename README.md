@@ -15,17 +15,14 @@ Este repositório armazena todos os exercícios práticos, laboratórios e proje
 ## 📁 Estrutura do Repositório
 
 O repositório está organizado de forma modular por semestres:
-
-```text
-.
 ├── Primeiro_Modulo/
 │   ├── bancodeDados1/         # Scripts SQL, modelagem de dados (DER) e consultas
 │   ├── introduçãoTI_head/     # Conceitos de TI, fundamentos e EAD
-│   ├── lógica-e-algoritmos/   # Exercícios em JS, estruturas condicionais e de repetição
+│   ├── lógica-e-algoritmos/   # Exercícios em JS CLI, estruturas condicionais e de repetição
 │   └── redes_computadores/    # Trabalhos sobre arquitetura e protocolos de rede
 │
-├── Segundo_Modulo/            # Módulo em andamento
-│   └── README.md
+├── Segundo_Modulo/
+│   └── frontend/              # HTML, CSS e JavaScript para Web
 │
 ├── .gitignore
 ├── package.json
