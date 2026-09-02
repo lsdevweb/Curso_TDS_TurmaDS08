@@ -6,9 +6,9 @@ Este repositório armazena todos os exercícios práticos, laboratórios e proje
 
 ## 📌 Visão Geral do Curso
 
-* **Instituição:** Meta Escola de Formação Técnica[cite: 1]
-* **Período:** Março de 2026 – Dezembro de 2027[cite: 1]
-* **Curso:** Técnico em Desenvolvimento de Sistemas[cite: 1]
+* **Instituição:** Meta Escola de Formação Técnica
+* **Período:** Março de 2026 – Dezembro de 2027
+* **Curso:** Técnico em Desenvolvimento de Sistemas
 
 ---
 
@@ -16,6 +16,8 @@ Este repositório armazena todos os exercícios práticos, laboratórios e proje
 
 O repositório está organizado de forma modular por semestres:
 
+```text
+.
 ├── Primeiro_Modulo/
 │   ├── bancodeDados1/         # Scripts SQL, modelagem de dados (DER) e consultas
 │   ├── introduçãoTI_head/     # Conceitos de TI, fundamentos e EAD
@@ -42,15 +44,8 @@ Ferramentas: Git, GitHub, VS Code, Linux Mint
 Clone o repositório:
 
 Bash
-git clone [https://github.com/lsdevweb/Curso_TDS_TurmaDS08.git](https://github.com/lsdevweb/Curso_TDS_TurmaDS08.git)
+git clone https://github.com/lsdevweb/Curso_TDS_TurmaDS08.git
 Navegue até o módulo e matéria desejada:
 
 Bash
 cd Curso_TDS_TurmaDS08/Primeiro_Modulo/logica-e-algoritmos
----
-
-### Como atualizar rapidamente pelo terminal:
-
-1. Abra o arquivo no VS Code ou nano:
-   ```bash
-   code README.md
