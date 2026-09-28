@@ -1,4 +1,4 @@
-public class estoqueJAva{
+public class estoqueJava{
   public static void main(String args[]) {
       String nomeProduto1 ="Lápis";
       String nomeProduto2 ="Caneta";
