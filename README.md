@@ -26,7 +26,9 @@ O repositório está organizado de forma modular por semestres:
 │
 ├── Segundo_Modulo/
 │   └── frontend/              # HTML, CSS e JavaScript para Web
-│
+│   └──javaPoo/              # java
+   └── bancoDedadosII/          # Mysql
+
 ├── .gitignore
 ├── package.json
 └── README.md
