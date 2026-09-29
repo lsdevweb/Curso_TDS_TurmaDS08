@@ -1,0 +1,105 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    border: 4px solid lightgreen;
+    border-radius: 10px;
+    padding: 30px;
+    width: 500px;
+    background-color: #1a1a1a;
+}
+
+h1 {
+    color: white;
+    /* Títulos e subtítulos */
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.subtitulo {
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: red;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: lightgreen;
+    margin-bottom: 10px;
+}
+
+.imagem {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.imagem img {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 6px;
+    border: 2px solid lightgreen;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #cccccc;
+    text-align: justify;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #cccccc;
+    font-size: 14px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.elenco-caixa {
+    background-color: #242424;
+    border: 1px solid lightgreen;
+    padding: 10px 15px;
+    border-radius: 6px;
+}
+
+.botao-container {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.botao {
+    background-color: red;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid lightgreen;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background-color: black;
+    color: #ffffff;
+}
