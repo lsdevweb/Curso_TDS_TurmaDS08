@@ -1,0 +1,134 @@
+/* Configurações Globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    color: #000000; /* Fonte na cor preta normal */
+}
+
+body {
+    background-color: #ffffff; /* Fundo geral branco */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
+}
+
+/* Cabeçalho */
+.header {
+    background-color: #d62828; /* Vermelho principal */
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+
+.header p {
+    font-size: 1rem;
+}
+
+/* Container Principal */
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding: 20px;
+    background-color: #f9f9f9; /* Fundo levemente acinzentado para destacar o card branco */
+}
+
+/* Cartão de Login */
+.login-card {
+    background-color: #ffffff;
+    border: 2px solid #ff3b3b; /* Borda vermelha */
+    border-radius: 10px;
+    padding: 30px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.login-card h2 {
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+}
+
+/* Grupos de Inputs */
+.input-group {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    background-color: #fff;
+}
+
+.input-group input:focus {
+    outline: none;
+    border-color: #ff3b3b;
+}
+
+/* Botão Entrar */
+.btn-entrar {
+    width: 100%;
+    padding: 10px;
+    background-color: #d62828; /* Botão vermelho */
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.2s;
+}
+
+.btn-entrar:hover {
+    background-color: #e03232;
+}
+
+/* Texto de Cadastro */
+.signup-text {
+    font-size: 0.85rem;
+    margin-top: 20px;
+}
+
+.signup-text a {
+    color: #d62828;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.signup-text a:hover {
+    text-decoration: underline;
+}
+
+/* Rodapé */
+.footer {
+    text-align: center;
+    padding: 15px;
+    font-size: 0.8rem;
+    background-color: #ffffff;
+    border-top: 1px solid #ddd;
+font-weight: bold;
+}
