@@ -1,53 +1,50 @@
-# 🚀 Curso Técnico em Desenvolvimento de Sistemas
+# Curso Técnico em Desenvolvimento de Sistemas
 
-Este repositório armazena todos os exercícios práticos, laboratórios e projetos desenvolvidos ao longo do curso técnico. O objetivo é consolidar o aprendizado em lógica de programação, banco de dados, redes de computadores, front-end e desenvolvimento backend.
+Este repositório reúne exercícios, atividades e projetos desenvolvidos durante o curso. O conteúdo está organizado por módulos e disciplinas.
 
----
+## Visão geral
 
-## 📌 Visão Geral do Curso
+- **Instituição:** Meta Escola de Formação Técnica
+- **Período:** Março de 2026 a dezembro de 2027
+- **Curso:** Técnico em Desenvolvimento de Sistemas
 
-* **Instituição:** Meta Escola de Formação Técnica
-* **Período:** Março de 2026 – Dezembro de 2027
-* **Curso:** Técnico em Desenvolvimento de Sistemas
-
----
-
-## 📁 Estrutura do Repositório
-
-O repositório está organizado de forma modular por semestres:
+## Estrutura do repositório
 
 ```text
 .
 ├── Primeiro_Modulo/
-│   ├── bancodeDados1/         # Scripts SQL, modelagem de dados (DER) e consultas
-│   ├── introduçãoTI_head/     # Conceitos de TI, fundamentos e EAD
-│   ├── lógica-e-algoritmos/   # Exercícios em JS CLI, estruturas condicionais e de repetição
-│   └── redes_computadores/    # Trabalhos sobre arquitetura e protocolos de rede
-│
+│   ├── bancodeDados1/         # Exercícios SQL, diagramas e modelagem de dados
+│   ├── introducaoTI_ead/      # Conteúdos de introdução à TI
+│   ├── logica-e-algoritmos/   # Exercícios de lógica e programação em JavaScript
+│   ├── redes_computadores/    # Atividades de redes de computadores
+│   └── teste.js
 ├── Segundo_Modulo/
-│   └── frontend/              # HTML, CSS e JavaScript para Web
-│   └──javaPoo/              # java
-   └── bancoDedadosII/          # Mysql
-
-├── .gitignore
+│   ├── bancoDadosII/          # Atividades de banco de dados
+│   ├── frontend/              # Práticas de HTML e CSS
+│   ├── java/                  # Práticas de Java
+│   └── README.md
 ├── package.json
 └── README.md
-🏆 Projetos Integradores e Destaques
-PWR History Tour - Sistema de Vendas Automatizado: Sistema interativo em Node.js focado em automação de reservas e pacotes turísticos, desenvolvido para as disciplinas de Lógica e Programação.
+```
 
-🛠️ Tecnologias e Ferramentas
-Linguagens: JavaScript, Node.js, SQL
+## Tecnologias
 
-Banco de Dados: MySQL
+JavaScript, Node.js, HTML, CSS, Java, SQL e MySQL.
 
-Ferramentas: Git, GitHub, VS Code, Linux Mint
+## Como começar
 
-🚀 Como Executar os Projetos
-Clone o repositório:
+Clone o repositório e instale as dependências JavaScript:
 
-Bash
+```bash
 git clone https://github.com/lsdevweb/Curso_TDS_TurmaDS08.git
-Navegue até o módulo e matéria desejada:
+cd Curso_TDS_TurmaDS08
+npm install
+```
 
-Bash
-cd Curso_TDS_TurmaDS08/Primeiro_Modulo/logica-e-algoritmos
+Os exercícios estão organizados nas pastas de cada módulo. Para executar um exercício JavaScript, entre na pasta correspondente e use `node nome-do-arquivo.js`. As páginas HTML podem ser abertas no navegador. Os exercícios Java devem ser compilados antes da execução, por exemplo:
+
+```bash
+cd Segundo_Modulo/java
+javac estruturaDados.java
+java estruturaDados
+```
