@@ -1,0 +1,85 @@
+ body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #222222;
+}
+
+.topo {
+  background-color: #005346;
+  color: black;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.topo h1 {
+  margin: 0;
+}
+
+.menu {
+  margin-top: 15px;
+ 
+}
+
+.menu a {
+  color: #DAA520;
+  text-decoration: none;
+  margin-right: 20px;
+font-weight: bold;
+}
+.menu a:hover {
+  color: black;
+}
+main {
+  width: 900px;
+  margin: 40px auto;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color:#ffd;
+}
+.produtos{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+}   
+.card {
+  width: 200px;
+  height: 190px;
+  padding: 20px;
+  background-color: #005346;
+  border: 1.5px solid white;
+  border-radius: 8px;
+}
+
+.card h3 {
+  color: #DAA520;
+}
+p {
+ color: #DAA520;
+}
+.preco {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+button {
+  background-color: #000;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto;   
+}
+
+button:hover {
+  background-color: #fff;
+ color: black;
+ font-weight: bold;
+}
