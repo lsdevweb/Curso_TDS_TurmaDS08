@@ -9,6 +9,6 @@ public class estruturaDados{
         System.out.println("Idade: " + idade + " anos");
         System.out.println("Altura: " + altura +  "cm");
         System.out.println("Gênero: " + genero);
-        System.out.println("É professor " + "javaPoo");
+        System.out.println("É professor " + ehProfessor);
   }
 };
