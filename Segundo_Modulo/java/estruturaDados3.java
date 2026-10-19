@@ -1,0 +1,17 @@
+public class estruturaDados3 {
+  public static void main(String args[]) {
+  String nomeProduto1 ="Lápis";
+ String nomeProduto2 ="Caneta";
+ String nomeProduto3 ="Caderno";
+int produto1 = 30;
+int produto2 = 30;
+int produto3 = 30;
+double lapis =1.50;
+double caneta =2.00;
+double caderno =15.00;
+System.out.println("----Produtos em Estoque ----");  
+System.out.printf("%-10s | R$%6.2f%n", nomeProduto1, lapis);  
+System.out.printf("%-10s | R$%6.2f%n", nomeProduto2, caneta);  
+System.out.printf("%-10s | R$%6.2f%n", nomeProduto3, caderno);  
+  }
+};
